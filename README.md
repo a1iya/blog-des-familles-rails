@@ -1,24 +1,15 @@
-# README
+git clone 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+cd nom_du_dossier 
 
-Things you may want to cover:
+bundle install 
 
-* Ruby version
+rails db:seed 
 
-* System dependencies
+rails console 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+tp User.all
+tp Article.all
+tp Category.all
+tp Comment.all
+tp Like.all
